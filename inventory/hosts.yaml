@@ -1,0 +1,40 @@
+---
+csr1kv:
+  hostname: sandbox-iosxe-recomm-1.cisco.com
+  platform: ios
+  username: developer
+  password: lastorangerestoreball8876
+  data:
+    description: Cisco IOS XE on CSR1000V
+  groups:
+    - iosxe
+
+cat8kv:
+  hostname: sandbox-iosxe-latest-1.cisco.com
+  platform: ios
+  username: admin
+  password: C1sco12345
+  data:
+    description: Cisco IOS XE on Cat8000V
+  groups:
+    - iosxe
+
+xr9kv:
+  hostname: sandbox-iosxr-1.cisco.com
+  platform: iosxr
+  username: admin
+  password: C1sco12345
+  data:
+    description: Cisco IOS XR on XRv 9000
+  groups:
+    - iosxr
+
+n9kv:
+  hostname: sbx-nxos-mgmt.cisco.com
+  platform: nxos
+  username: admin
+  password: Admin_1234!
+  data:
+    description: Cisco NX-OS on Nexus 9000v
+  groups:
+    - nxos

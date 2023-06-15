@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nornir-starters"
+version = "0.0.1"
+description = "Getting to know nornir"
+authors = ["becos76"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "nornir_starters"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+nornir = "^3.3.0"
+nornir-utils = "^0.2.0"
+nornir-napalm = "^0.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
